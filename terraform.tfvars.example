@@ -1,0 +1,20 @@
+keycloak_username = "admin"
+keycloak_password = "admin"
+keycloak_federation_realm_roles = {
+   role1 = {
+        name = "permissiongroup1"
+        description = "Permission Group 1"
+    }
+   role2 = {
+        name = "permissiongroup2"
+        description = "Permission Group 2"
+    }
+   role3 = {
+        name = "permissiongroup3"
+        description = "Permission Group 3"
+    }
+}
+
+adfs_root_url = "https://adfs-server"
+adfs_client_secret = "somerandomsecret"
+adfs_client_id = "keycloak-demo"
